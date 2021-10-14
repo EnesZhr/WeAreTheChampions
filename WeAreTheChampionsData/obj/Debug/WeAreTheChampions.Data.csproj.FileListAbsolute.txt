@@ -1,0 +1,14 @@
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\WeAreTheChampionsData.dll.config
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\WeAreTheChampionsData.dll
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\WeAreTheChampionsData.pdb
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\EntityFramework.dll
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\EntityFramework.SqlServer.dll
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\EntityFramework.xml
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\EntityFramework.SqlServer.xml
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampions.Data.csproj.AssemblyReference.cache
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampions.Data.csproj.CoreCompileInputs.cache
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampions.Data.csproj.CopyComplete
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampionsData.dll
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampionsData.pdb
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampionsData.Migrations.InitialCatalog.resources
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampions.Data.csproj.GenerateResource.cache

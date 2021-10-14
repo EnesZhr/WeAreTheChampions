@@ -1,0 +1,9 @@
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampions\bin\Debug\WeAreTheChampions.exe.config
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampions\bin\Debug\WeAreTheChampions.exe
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampions\bin\Debug\WeAreTheChampions.pdb
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.UI.csproj.AssemblyReference.cache
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.Properties.Resources.resources
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.UI.csproj.GenerateResource.cache
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.UI.csproj.CoreCompileInputs.cache
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.exe
+D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.pdb
