@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace WeAreTheChampions
 {
-    public partial class Colors : Form
+    public partial class Players : Form
     {
-        public Colors()
+        public Players()
         {
             InitializeComponent();
         }
-
     }
 }

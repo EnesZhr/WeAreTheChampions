@@ -22,3 +22,7 @@ C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeA
 C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.UI.csproj.CopyComplete
 C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.exe
 C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.pdb
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.Colors.resources
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.New_Match.resources
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.Players.resources
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.Teams.resources

@@ -131,7 +131,10 @@ namespace WeAreTheChampions
             this.Controls.Add(this.dgvScore);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Fixture";
             this.menuStrip1.ResumeLayout(false);
