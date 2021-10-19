@@ -60,6 +60,7 @@ namespace WeAreTheChampions
             this.tsmiTeams.Name = "tsmiTeams";
             this.tsmiTeams.Size = new System.Drawing.Size(79, 32);
             this.tsmiTeams.Text = "Teams";
+            this.tsmiTeams.Click += new System.EventHandler(this.tsmiTeams_Click);
             // 
             // tsmiColors
             // 
@@ -67,6 +68,7 @@ namespace WeAreTheChampions
             this.tsmiColors.Name = "tsmiColors";
             this.tsmiColors.Size = new System.Drawing.Size(82, 32);
             this.tsmiColors.Text = "Colors";
+            this.tsmiColors.Click += new System.EventHandler(this.tsmiColors_Click);
             // 
             // tsmiPlayers
             // 
@@ -74,6 +76,7 @@ namespace WeAreTheChampions
             this.tsmiPlayers.Name = "tsmiPlayers";
             this.tsmiPlayers.Size = new System.Drawing.Size(87, 32);
             this.tsmiPlayers.Text = "Players";
+            this.tsmiPlayers.Click += new System.EventHandler(this.tsmiPlayers_Click);
             // 
             // btnAdd
             // 
@@ -85,6 +88,7 @@ namespace WeAreTheChampions
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "New Match";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // dgvScore
             // 
@@ -109,6 +113,7 @@ namespace WeAreTheChampions
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnEdit
             // 
@@ -137,6 +142,7 @@ namespace WeAreTheChampions
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Fixture";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvScore)).EndInit();

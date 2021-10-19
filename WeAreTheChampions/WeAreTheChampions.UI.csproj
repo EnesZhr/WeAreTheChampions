@@ -126,6 +126,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WeAreTheChampionsData\WeAreTheChampions.Data.csproj">
+      <Project>{65855351-16ee-488b-92d0-0675c8ddd28c}</Project>
+      <Name>WeAreTheChampions.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

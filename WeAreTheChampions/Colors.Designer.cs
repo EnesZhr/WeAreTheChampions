@@ -110,6 +110,7 @@ namespace WeAreTheChampions
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // label5
             // 
@@ -147,23 +148,29 @@ namespace WeAreTheChampions
             // hsbBlue
             // 
             this.hsbBlue.Location = new System.Drawing.Point(70, 377);
+            this.hsbBlue.Maximum = 256;
             this.hsbBlue.Name = "hsbBlue";
             this.hsbBlue.Size = new System.Drawing.Size(260, 27);
             this.hsbBlue.TabIndex = 4;
+            this.hsbBlue.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hsbBlue_Scroll);
             // 
             // hsbGreen
             // 
             this.hsbGreen.Location = new System.Drawing.Point(70, 291);
+            this.hsbGreen.Maximum = 256;
             this.hsbGreen.Name = "hsbGreen";
             this.hsbGreen.Size = new System.Drawing.Size(260, 27);
             this.hsbGreen.TabIndex = 3;
+            this.hsbGreen.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hsbGreen_Scroll);
             // 
             // hsbRed
             // 
             this.hsbRed.Location = new System.Drawing.Point(70, 202);
+            this.hsbRed.Maximum = 256;
             this.hsbRed.Name = "hsbRed";
             this.hsbRed.Size = new System.Drawing.Size(260, 27);
             this.hsbRed.TabIndex = 2;
+            this.hsbRed.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hsbRed_Scroll);
             // 
             // label1
             // 
@@ -185,13 +192,17 @@ namespace WeAreTheChampions
             // 
             // dgvColors
             // 
+            this.dgvColors.AllowUserToAddRows = false;
+            this.dgvColors.AllowUserToDeleteRows = false;
             this.dgvColors.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvColors.Location = new System.Drawing.Point(438, 12);
             this.dgvColors.Name = "dgvColors";
+            this.dgvColors.ReadOnly = true;
             this.dgvColors.RowHeadersWidth = 51;
             this.dgvColors.RowTemplate.Height = 24;
             this.dgvColors.Size = new System.Drawing.Size(220, 404);
             this.dgvColors.TabIndex = 1;
+            this.dgvColors.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgvColors_MouseClick);
             // 
             // lblColorsBackGround
             // 
@@ -210,6 +221,7 @@ namespace WeAreTheChampions
             this.btnEdit.TabIndex = 9;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnRemove
             // 
@@ -220,6 +232,7 @@ namespace WeAreTheChampions
             this.btnRemove.TabIndex = 9;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // Colors
             // 

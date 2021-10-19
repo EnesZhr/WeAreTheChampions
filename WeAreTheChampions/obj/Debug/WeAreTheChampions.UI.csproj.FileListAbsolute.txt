@@ -26,3 +26,6 @@ C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeA
 C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.New_Match.resources
 C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.Players.resources
 C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\obj\Debug\WeAreTheChampions.Teams.resources
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\bin\Debug\WeAreTheChampionsData.dll
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\bin\Debug\WeAreTheChampionsData.pdb
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampions\bin\Debug\WeAreTheChampionsData.dll.config

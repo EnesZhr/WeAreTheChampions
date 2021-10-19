@@ -80,6 +80,7 @@ namespace WeAreTheChampions
             this.lblColors2.Name = "lblColors2";
             this.lblColors2.Size = new System.Drawing.Size(68, 139);
             this.lblColors2.TabIndex = 8;
+            this.lblColors2.Click += new System.EventHandler(this.lblColors2_Click);
             // 
             // lblColors1
             // 
@@ -89,6 +90,7 @@ namespace WeAreTheChampions
             this.lblColors1.Name = "lblColors1";
             this.lblColors1.Size = new System.Drawing.Size(68, 139);
             this.lblColors1.TabIndex = 7;
+            this.lblColors1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblColors1_MouseClick);
             // 
             // dgvColors
             // 
@@ -136,6 +138,7 @@ namespace WeAreTheChampions
             this.btnTeamAdd.TabIndex = 3;
             this.btnTeamAdd.Text = "Team Add";
             this.btnTeamAdd.UseVisualStyleBackColor = true;
+            this.btnTeamAdd.Click += new System.EventHandler(this.btnTeamAdd_Click);
             // 
             // dgvTeams
             // 
@@ -190,6 +193,7 @@ namespace WeAreTheChampions
             this.btnTeamDelete.TabIndex = 2;
             this.btnTeamDelete.Text = "Team Delete";
             this.btnTeamDelete.UseVisualStyleBackColor = true;
+            this.btnTeamDelete.Click += new System.EventHandler(this.btnTeamDelete_Click);
             // 
             // Teams
             // 
@@ -205,6 +209,7 @@ namespace WeAreTheChampions
             this.Name = "Teams";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Teams";
+            this.Load += new System.EventHandler(this.Teams_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvColors)).EndInit();
