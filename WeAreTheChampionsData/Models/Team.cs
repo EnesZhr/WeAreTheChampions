@@ -22,7 +22,7 @@ namespace WeAreTheChampionsData
         [Required,MaxLength(50)]
         public string TeamName { get; set; }
 
-        public virtual ICollection<Color> Colors { get; set; }
+        public virtual ICollection<Color> Colors { get; set; } 
         public virtual ICollection<Player> Players { get; set; }
         public virtual ICollection<Match> HomeMatches { get; set; }
         public virtual ICollection<Match> AwayMatches { get; set; }
