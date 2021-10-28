@@ -31,6 +31,14 @@ namespace WeAreTheChampions
             });
             db.SaveChanges();
             TeamsList();
+            FormReset();
+        }
+
+        private void FormReset()
+        {
+            txtTeamName.Clear();
+            lblColors1.BackColor = System.Drawing.Color.White;
+            lblColors2.BackColor = System.Drawing.Color.White;
         }
 
         private void TeamsList()
@@ -64,7 +72,7 @@ namespace WeAreTheChampions
             dgvColors.AutoGenerateColumns = false;
             List<WeAreTheChampionsData.Color> allColors = db.Colors.ToList();
             dgvColors.DataSource = allColors;
-            
+
         }
 
         private void lblColors1_MouseClick(object sender, MouseEventArgs e)
@@ -78,13 +86,12 @@ namespace WeAreTheChampions
 
             foreach (var item in db.Colors)
             {
-                if (lblColors1.BackColor == System.Drawing.Color.White)
+
+                if (id == item.Id)
                 {
-                    if (id == item.Id)
-                    {
-                        lblColors1.BackColor = System.Drawing.Color.FromArgb(item.Red, item.Blue, item.Green);
-                    }
+                    lblColors1.BackColor = System.Drawing.Color.FromArgb(item.Red, item.Green, item.Blue);
                 }
+
             }
         }
 
@@ -98,13 +105,12 @@ namespace WeAreTheChampions
 
             foreach (var item in db.Colors)
             {
-                if (lblColors2.BackColor == System.Drawing.Color.White)
+
+                if (id == item.Id)
                 {
-                    if (id == item.Id)
-                    {
-                        lblColors2.BackColor = System.Drawing.Color.FromArgb(item.Red, item.Blue, item.Green);
-                    }
+                    lblColors2.BackColor = System.Drawing.Color.FromArgb(item.Red, item.Green, item.Blue);
                 }
+
             }
         }
     }

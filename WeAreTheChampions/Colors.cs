@@ -44,21 +44,18 @@ namespace WeAreTheChampions
         {
             lblRed.Text = hsbRed.Value.ToString();
             gbBackGroundColor.BackColor = System.Drawing.Color.FromArgb(hsbRed.Value, hsbGreen.Value, hsbBlue.Value);
-            lblRed.Text = hsbRed.Value.ToString();
         }
 
         private void hsbGreen_Scroll(object sender, ScrollEventArgs e)
         {
             lblGreen.Text = hsbGreen.Value.ToString();
             gbBackGroundColor.BackColor = System.Drawing.Color.FromArgb(hsbRed.Value, hsbGreen.Value, hsbBlue.Value);
-            lblGreen.Text = hsbGreen.Value.ToString();
         }
 
         private void hsbBlue_Scroll(object sender, ScrollEventArgs e)
         {
             lblBlue.Text = hsbBlue.Value.ToString();
             gbBackGroundColor.BackColor = System.Drawing.Color.FromArgb(hsbRed.Value, hsbGreen.Value, hsbBlue.Value);
-            lblBlue.Text = hsbBlue.Value.ToString();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -85,7 +82,10 @@ namespace WeAreTheChampions
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            int selectLine = (int)dgvColors.SelectedRows[0].Cells[0].Value;
+            if (dgvColors.SelectedRows.Count != 1)
+                return;
+
+            int selectLine = ((WeAreTheChampionsData.Color)dgvColors.SelectedRows[0].DataBoundItem).Id;
             var delete = db.Colors.Where(x => x.Id == selectLine).FirstOrDefault();
             db.Colors.Remove(delete);
             db.SaveChanges();

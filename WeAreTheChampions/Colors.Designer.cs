@@ -65,9 +65,9 @@ namespace WeAreTheChampions
             this.gbBackGroundColor.Controls.Add(this.label1);
             this.gbBackGroundColor.Controls.Add(this.txtColorName);
             this.gbBackGroundColor.Location = new System.Drawing.Point(9, 10);
-            this.gbBackGroundColor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbBackGroundColor.Margin = new System.Windows.Forms.Padding(2);
             this.gbBackGroundColor.Name = "gbBackGroundColor";
-            this.gbBackGroundColor.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbBackGroundColor.Padding = new System.Windows.Forms.Padding(2);
             this.gbBackGroundColor.Size = new System.Drawing.Size(302, 461);
             this.gbBackGroundColor.TabIndex = 0;
             this.gbBackGroundColor.TabStop = false;
@@ -110,7 +110,7 @@ namespace WeAreTheChampions
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAdd.Location = new System.Drawing.Point(98, 388);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(163, 37);
             this.btnAdd.TabIndex = 8;
@@ -196,7 +196,7 @@ namespace WeAreTheChampions
             // 
             this.txtColorName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtColorName.Location = new System.Drawing.Point(32, 73);
-            this.txtColorName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtColorName.Margin = new System.Windows.Forms.Padding(2);
             this.txtColorName.Name = "txtColorName";
             this.txtColorName.Size = new System.Drawing.Size(229, 26);
             this.txtColorName.TabIndex = 0;
@@ -205,9 +205,11 @@ namespace WeAreTheChampions
             // 
             this.dgvColors.AllowUserToAddRows = false;
             this.dgvColors.AllowUserToDeleteRows = false;
+            this.dgvColors.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvColors.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvColors.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvColors.Location = new System.Drawing.Point(328, 10);
-            this.dgvColors.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvColors.Margin = new System.Windows.Forms.Padding(2);
             this.dgvColors.Name = "dgvColors";
             this.dgvColors.ReadOnly = true;
             this.dgvColors.RowHeadersWidth = 51;
@@ -230,7 +232,7 @@ namespace WeAreTheChampions
             // 
             this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnEdit.Location = new System.Drawing.Point(328, 364);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(163, 37);
             this.btnEdit.TabIndex = 9;
@@ -242,7 +244,7 @@ namespace WeAreTheChampions
             // 
             this.btnRemove.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnRemove.Location = new System.Drawing.Point(508, 364);
-            this.btnRemove.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(2);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(163, 37);
             this.btnRemove.TabIndex = 9;
@@ -261,7 +263,7 @@ namespace WeAreTheChampions
             this.Controls.Add(this.dgvColors);
             this.Controls.Add(this.gbBackGroundColor);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Colors";
