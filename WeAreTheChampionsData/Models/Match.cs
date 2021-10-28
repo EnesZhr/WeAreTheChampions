@@ -24,5 +24,16 @@ namespace WeAreTheChampionsData
         [Required]
         public int AwayTeamId { get; set; }
         public virtual Team AwayTeam { get; set; }
+
+        public string MatchDateText => ((DateTime)this.MatchTime).ToShortDateString();
+        public string MatchHourText => ((DateTime)this.MatchTime).ToString("HH:mm");
+        public string Scores => CheckScores();
+        private string CheckScores()
+        {
+            if (Score1 == null || Score2 == null)
+                return "? : ?";
+            return $"{Score1.ToString()} : {Score2.ToString()}";
+        }
+
     }
 }

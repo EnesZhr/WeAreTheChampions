@@ -13,4 +13,5 @@ namespace WeAreTheChampionsData
         Team2Win=2,
 
     }
+
 }

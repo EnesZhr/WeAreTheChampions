@@ -12,3 +12,17 @@ D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChamp
 D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampionsData.pdb
 D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampionsData.Migrations.InitialCatalog.resources
 D:\Uygulama Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampions.Data.csproj.GenerateResource.cache
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\WeAreTheChampionsData.dll.config
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\WeAreTheChampionsData.dll
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\WeAreTheChampionsData.pdb
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\EntityFramework.dll
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\EntityFramework.xml
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampions.Data.csproj.AssemblyReference.cache
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampionsData.Migrations.InitialCatalog.resources
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampions.Data.csproj.GenerateResource.cache
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampions.Data.csproj.CoreCompileInputs.cache
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampions.Data.csproj.CopyComplete
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampionsData.dll
+C:\Users\Ben\Desktop\Enes Ders\WeAreTheChampions\WeAreTheChampionsData\obj\Debug\WeAreTheChampionsData.pdb
